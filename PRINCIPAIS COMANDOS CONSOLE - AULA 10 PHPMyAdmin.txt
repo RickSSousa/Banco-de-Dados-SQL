@@ -1,0 +1,11 @@
+describe (nome da table) - mostra a estrutura da tabela
+
+show tables - mostra as tabelas
+
+use (nome do banco) - abre o banco de dados
+
+select * from (nome da tabela) - ver todos os dados da tabela
+
+(no console)show create table/database (nome da tabela) - mostra o comando que foi usado pra criar a tabela
+
+Nessa aula ensinou a usar o PHPMyAdmin

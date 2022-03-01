@@ -1,0 +1,21 @@
+entidades = tabela 
+atributos = id, nome... 
+tuplas = registros
+
+as entidades são representadas na forma de um retângulo
+o relacionamento é representado na forma de um losângo
+
+Cardinalidade: simples ou multiplas/ 1 ou "n"
+1 para "n" = relação 1 para muitos
+1 para 1 = relação 1 para 1
+"n" para "n" = muitos para muitos
+
+A chave estrangeira é a chave primária de alguém:
+relacionamento 1 - 1: desde que faça sentido manter esses dados separados "um para um",
+escolher a entidade dominante (representar na esquerda) e transferir a chave primária da outra entidade para a entidade dominante
+
+1 - n: transferir a chave primária do lado 1 e joga pro lado muitos como chave estrangeira
+
+n - n: O relacionamento vai virar uma entidade ( vai ter um retângulo fora do losango), e o "n" ficou para essa nova entidade dos 2 lados.
+Vai ter novos relacionamentos entre as 3 entidades e as 2 entidades originais vão se relacionar como 1 - n com a entidade do meio,
+então, a chave primaria do lado 1 vai para o lado muitos como estrangeira.
